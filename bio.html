@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>iBoris</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.css">
+		<link rel="stylesheet" href="style.css">
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+       
+	</head>
+	<body>
+      
+        <div>
+        <a id="back2Top" title="Back to top"><img class="up" src="ikone/up.png"></a>
+        <a href="index.html"><img src="ikone/home.png" id="myBtn" class="home"/> </a>
+              </div>
+        
+        
+            
+			<!-- ************** Zaglavlje / početak ************** -->
+            <div class="overlay">
+                <img src="slike/profile/profile_3.jpg" class="bio_profil">
+               <dir class="bio_p">
+                   <p>Hello.<p>Boris is a freelancer who lives in Zagreb, Croatia.</p>  
+                    <p>He does design, project management and marketing, always trying to develop high-quality content.</p> <p>Intrigued by design, traveling, photography, marketing, fitness, and tasty food.
+                    </p> </dir> 
+               <div>
+                <a href="work.html"><img src="ikone/work_s.png" id="myBtn" class="work"/> </a> 
+                </div>
+                <img src ="ikone/menu.png" id="myBtn" onclick="openNav()" class="menu">
+                    
+            </div>
+                
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html">Home</a>
+              <a href="bio.html">About</a>
+              <a href="work.html">Work</a>
+              <a href="contact.html">Contact</a>
+            </div>
+           
+               
+                <dir class="bio_p2_t"><p>Boris completed a degree in BUSINESS MARKETING at Experta Business School Zagreb before pursuing a career in MULTIMEDIA DESIGN at Faculty of Graphic Arts and University North.</p> </dir>
+               
+                 
+                <dir class="bio_p3">
+                   <p><p class="bio_p3_n">Fun Facts</p><p>I love Coffee Latte, my favorite color is Battleship Gray, I do hiking, my favorite food is waffles, and I really hate beer. Any kind of beer.</p></dir> 
+
+                    <!-- InstaWidget -->
+                   <p class="insta"> <a href="https://instawidget.net/v/user/realiboris" id="link-5ec9d791681b4b8bfb8d9f0a5b537883a125bea66417a4607232c1e706374e06">@realiboris</a>
+                    <script src="https://instawidget.net/js/instawidget.js?u=5ec9d791681b4b8bfb8d9f0a5b537883a125bea66417a4607232c1e706374e06&width=600px"></script></p>
+
+                       
+          
+			<!-- ************** Zaglavlje / kraj ************** -->
+			<!-- ************** Navigacija / početak ************** -->
+			<!-- ************** Navigacija / kraj ************** -->
+        
+
+        
+            
+        
+        
+        
+			
+			
+			
+		
+			<!-- ************** Footer / početak ************** -->
+               <div class="footer">
+               <p class="footer_p">iBoris</p>
+                <div align="center">
+                <div class="f_line"></div></div>
+                <div align="center">
+                <a href="https://www.facebook.com/btunjic"><img src="ikone/network/facebook.png" class="f_ikone" /> </a>
+                <a href="https://twitter.com/iTunich"><img src="ikone/network/twitter.png" class="f_ikone" /> </a>
+                <a href="#"><img src="ikone/network/linkedin.png"  class="f_ikone"/> </a>
+                <a href="#"><img src="ikone/network/youtube.png"  class="f_ikone"/> </a>
+                <a href="#"><img src="ikone/network/twitch.png"  class="f_ikone"/> </a>
+                <a href="https://www.instagram.com/realiboris/?hl=hr"><img src="ikone/network/instagram.png"  class="f_ikone"/> </a>
+                   </div>
+               </div>
+                    <div class="footer_f">
+                           <p class="footer_t">© 2019. iBoris. All Rights Reserved.</p>
+                    </div>
+			<!-- ************** Footer / kraj ************** -->
+
+	
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "100%";
+            }
+                        function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <script>
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                    document.getElementById("myBtn").style.display = "block";
+                  } else {
+                    document.getElementById("myBtn").style.display = "";
+                  }
+                }
+                function downFunction() {
+                  document.body.scrollTop = 760; 
+                  document.documentElement.scrollTop = 760; 
+                }
+        </script>
+        <script>
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#back2Top').fadeIn();
+            } else {
+                $('#back2Top').fadeOut();
+            }
+        });
+        $(document).ready(function() {
+            $("#back2Top").click(function(event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+        });
+       
+	</body>
+</html>
+
+            <!-- ************** Credits / početak ************** -->
+            <div class="credits">  
+                    <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                    
+            </div>
+            <!-- ************** Credits / kraj ************** -->
